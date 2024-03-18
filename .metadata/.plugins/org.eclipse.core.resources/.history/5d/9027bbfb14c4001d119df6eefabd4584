@@ -1,0 +1,44 @@
+package com.gl.g4b3;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Admin adminDept = new Admin();			// Admin class instance created.
+		
+		Tech techDept = new Tech();	            // Tech class instance created.
+
+		Hr hrDept = new Hr();					// Hr class instance created.
+
+
+		// **** Admin dept methods called ****
+		
+		System.out.println("Welcome to " + adminDept.departmentName());
+		System.out.println(adminDept.getTodaysWork());
+		System.out.println(hrDept.getWorkDeadline());
+		System.out.println(hrDept.isTodayAHoliday());
+
+		System.out.println();
+
+		// **** Tech dept methods called ****
+		
+		System.out.println("Welcome to " + techDept.departmentName());
+		System.out.println(techDept.getTodaysWork());
+		System.out.println(techDept.getWorkDeadline());
+		System.out.println(techDept.getTechStackInformation());
+		System.out.println(techDept.isTodayAHoliday());
+
+		System.out.println();
+
+
+		// **** Hr dept methods called ****
+		
+		System.out.println("Welcome to " + hrDept.departmentName());
+		System.out.println(hrDept.doActivity());
+		System.out.println(hrDept.getTodaysWork());
+		System.out.println(hrDept.getWorkDeadline());
+		System.out.println(hrDept.isTodayAHoliday());
+
+	}
+
+}

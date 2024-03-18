@@ -1,0 +1,17 @@
+
+
+package mainpackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float a,b,result;
+		a=3.25f;
+		b=8.99f;
+		result = a+b;
+		System.out.println("Result = " + result);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\USER\eclipse-workspace\emp-management"/>
+			<item value="C:\Users\USER\eclipse-workspace\Employee Management App"/>
+			<item value="C:\Users\USER\eclipse-workspace\employeemanagement"/>
+			<item value="C:\Users\USER\eclipse-workspace\EmployeeManagement"/>
+			<item value="C:\Users\USER\eclipse-workspace\Employee-Management"/>
+			<item value="C:\Users\USER\Downloads\NikeetaSirvi_BED_Lab5-main\NikeetaSirvi_BED_Lab5-main\NikeetaSirvi_BED_Lab5\employee-management"/>
+			<item value="C:\Users\USER\eclipse-workspace\Lab assignment 3"/>
+		</list>
+	</section>
+</section>
