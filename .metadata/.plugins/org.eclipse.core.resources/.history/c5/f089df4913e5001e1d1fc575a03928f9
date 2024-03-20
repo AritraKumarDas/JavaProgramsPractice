@@ -1,0 +1,36 @@
+package inheritance;
+
+class InheritanceA {
+
+	private float circleArea(float radius){
+		
+		return (22/7 * radius * radius);	
+	}
+}
+
+class InheritanceB {
+
+	private float rectangleArea(float length, float breadth){
+		
+		return (length * breadth);	
+	}
+}
+
+class InheritanceC {
+
+	private float triangleArea(float base, float height){
+		
+		return (1/3 * base * height);	
+	}
+}
+
+public class Main{
+	public static void main(String[] args) {
+		
+		InheritanceC obj = new InheritanceC();
+	}
+}
+
+
+
+

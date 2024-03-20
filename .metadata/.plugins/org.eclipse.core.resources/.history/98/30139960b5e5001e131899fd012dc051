@@ -1,0 +1,36 @@
+
+class SuperClass{
+	
+	int x;
+	SuperClass(int x){
+		this.x = x;
+	}
+	public void display() {
+		System.out.println("x = " + x);
+	}
+	
+}
+
+class BaseClass extends SuperClass{
+	int y;
+	
+	BaseClass(int x, int y){
+		super(x);
+		this.y = y;
+	}
+	public void display() {
+		super.display();
+		System.out.println("y = " + y);
+	}
+	
+}
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		SuperClass obj = new BaseClass(10, 20);
+		
+		obj.display();
+	}
+}

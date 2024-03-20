@@ -1,0 +1,37 @@
+
+class SuperClass{
+	
+	int x=10;
+
+	public void display() {
+		System.out.println("From SuperClass, x = " + x);
+	}
+	
+}
+
+class SubClass extends SuperClass{
+	int x=20;
+	
+
+	public void display() {
+
+		System.out.println("From SubClass, x = " + x);
+	}
+	
+}
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		SuperClass obj1 = new SuperClass();   // 10
+		SubClass obj2 = new SubClass();      // 20
+		SuperClass obj3 = new SubClass();   // 20
+		
+		obj1.display();
+		obj2.display();
+		obj2.display();
+		
+//		System.out.println(" x = " + obj1.x);
+	}
+}

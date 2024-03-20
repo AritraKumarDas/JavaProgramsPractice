@@ -1,0 +1,51 @@
+
+abstract class SuperClass{
+	
+	int x=10;
+
+	public void display() {
+		System.out.println("From SuperClass, x = " + x);
+	}
+	
+	public void show() {
+		System.out.println("Showing from SuperClass");
+	}
+	
+	abstract public void print();
+	
+}
+
+class SubClass extends SuperClass{
+	
+	int y=20;
+	
+	public void display() {
+
+		System.out.println("From SubClass, y = " + y);
+	}
+	
+	public void print() {
+		System.out.println("Printing from SubClass");
+	}
+	
+	
+}
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+//		SuperClass obj1 = new SuperClass();   // 10
+		SubClass obj2 = new SubClass();      // 20
+		SuperClass obj3 = new SubClass();   // 20
+		
+//		obj1.display();
+		obj2.display();
+		obj3.display();
+		
+		obj3.print();
+		
+		
+		System.out.println(" x = " + obj3.x);
+	}
+}
