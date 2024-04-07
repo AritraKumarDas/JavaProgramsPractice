@@ -1,5 +1,5 @@
 package pack2;
-
+import java.util.Scanner;
 
 public class Main {
 
@@ -12,6 +12,7 @@ public class Main {
 public void calculateArea(){
 
 //    pi = 22/7;
+	Scanner sc = new Scanner(System.in);
 
     area = pi * radius * radius;
 
